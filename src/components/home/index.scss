@@ -1,0 +1,94 @@
+.home-page {
+    .text-zone {
+      position: absolute;
+      left: 15%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
+      max-height: 90%;
+    }
+  
+    h1 {
+      color: #000000;
+      font-size: 56px;
+      line-height: 53px;
+      font-family:'Brush Script MT, Brush Script Std, cursive';
+      font-weight: 400;
+      font-style: italic;
+      margin-left: 20px;
+  
+      &:before {
+        // content:;
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+  
+      &:after {
+        // content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+  
+      img {
+        margin-left: 20px;
+        opacity: 0;
+        width: 32px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+      }
+    }
+    h2{
+        color:#f88c00;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+                font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+      
+        &:hover{
+          background-color: #000000;
+          color: #f88c00;
+          animation-duration: 3s;
+          font-style: italic;
+        }
+    }
+    h2 span{
+      background-color: #100808;
+    }
+
+    .flat-button{
+      background-color: #000000;
+        color:#f88c00;
+        font-size:13px;
+        font-weight:400;
+        letter-spacing:normal;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border:1px solid #ffd700;
+        margin-top: 25px;
+        float:left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space:nowrap;
+     
+        &:hover{
+            background-color: #050505;
+            color:#33e3ea
+        }
+        
+      }
+
+}
