@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mywebsite.com",
+  "homepage": "https://scanf-ak27.github.io/Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
-    "gh-pages": "^6.0.0",
     "gsap-trial": "^3.12.2",
     "leaflet": "^1.9.4",
     "loaders.css": "^0.1.2",
@@ -50,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
