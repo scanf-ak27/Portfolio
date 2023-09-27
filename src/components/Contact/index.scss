@@ -87,7 +87,7 @@
     height: 100%;
     opacity: 0;
     animation: backInRight 1s 1.2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode:both;
   }
   
   .info-map {

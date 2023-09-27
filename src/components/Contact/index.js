@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -92,20 +92,21 @@ const sendEmail = (e) => {
           <span>kraayush27@gmail.com</span>
         </div>
         <div className="map-wrap">
-        {/* const position = [51.505, -0.09]
+        const position = [51.505, -0.09]
         
         render(
-          <MapContainer center={"22.82356678486292, 86.22474477186428"} zoom={13} scrollWheelZoom={false}>
-            <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            <Marker position={"22.82356678486292, 86.22474477186428"}>
-              <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-              </Popup>
-            </Marker>
-          </MapContainer>
-        ) */}
+          <MapContainer center={[22.823650745729807, 86.22472002444361]} zoom={13} scrollWheelZoom={false}>
+  <TileLayer
+    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  />
+  <Marker position={[22.823650745729807, 86.22472002444361]}>
+    <Popup>
+      Aayush's Home <br />
+    </Popup>
+  </Marker>
+</MapContainer>
+        )
         </div>
       </div>
       <Loader type="pacman" />
