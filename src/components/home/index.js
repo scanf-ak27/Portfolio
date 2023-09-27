@@ -14,7 +14,7 @@ const Home = () =>{
     //     return setTimeout(() => {
     //         setLetterClass('text-amimate-hover')
     //     }, 4000)
-    // }, []) ....THIS IS WRONG WAY DONT USEuseEffect like this
+    // }, []) ....THIS IS WRONG WAY DONT USE useEffect like this
 
 
     //USE IT LIKE THIS
