@@ -31,14 +31,14 @@ const Sidebar=() =>(
     </nav>
     <ul>
         <li>
-            <a target="_blank" rel="norefferer" href="https://www.linkedin.com/in/aayush-kumar-43b175136/"  className="social"
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aayush-kumar-43b175136/"  className="social"
                >
                 <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
             </a>
         </li>
         <li>
             <a target="_blank"
-               rel="norefferer"
+               rel="noreferrer"
                href="https://github.com/scanf-ak27" 
                >
                 <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
@@ -46,7 +46,7 @@ const Sidebar=() =>(
         </li>
         <li>
             <a target="_blank"
-               rel="norefferer"
+               rel="noreferrer"
                href="https://www.instagram.com/aayush__27/?next=%2F" 
                >
                 <FontAwesomeIcon icon={faInstagram} color="#4d4d4e"/>
@@ -54,7 +54,7 @@ const Sidebar=() =>(
         </li>
         <li>
             <a target="_blank"
-               rel="norefferer"
+               rel="noreferrer"
                href="https://wa.me/8521187429" 
                >
                 <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e"/>
